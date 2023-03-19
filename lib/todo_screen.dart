@@ -43,7 +43,9 @@ import 'package:flutter_bloc_todo_class1/BLOC/todo_bloc.dart';
                       onPressed:  (){
 
                         context.read<TodoBloc>().add(All_data());
+
                          Navigator.pop(context);
+
                       }, child: Text("Submit")),
 
 
